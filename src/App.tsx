@@ -5,10 +5,11 @@ import Projects from './Projects/Project'
 function App() {
   return (
     <div className='bg-black text-white'>
+      {/* hellloo */}
     <NavBar/>
    <LampDemo/>
     <Projects/>
-    {/* this is test */}
+
     </div>
   )
 }
