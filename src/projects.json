@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "Title": "Project One",
+      "description": "This is a description of Project One.",
+      "image": "https://via.placeholder.com/600x400",
+      "thumbnail": "https://via.placeholder.com/150x100",
+      "story": "This is the story of Project One.",
+      "fechers": ["Feature 1", "Feature 2", "Feature 3"],
+      "skills": ["React", "TypeScript", "CSS"]
+    },
+    {
+      "id": 2,
+      "Title": "Project Two",
+      "description": "This is a description of Project Two.",
+      "image": "https://via.placeholder.com/600x400",
+      "thumbnail": "https://via.placeholder.com/150x100",
+      "story": "This is the story of Project Two.",
+      "fechers": ["Feature 1", "Feature 2"],
+      "skills": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 3,
+      "Title": "Project Three",
+      "description": "This is a description of Project Three.",
+      "image": "https://via.placeholder.com/600x400",
+      "thumbnail": "https://via.placeholder.com/150x100",
+      "story": "This is the story of Project Three.",
+      "fechers": ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
+      "skills": ["Node.js", "Express", "MongoDB"]
+    },
+    {
+      "id": 4,
+      "Title": "Project Four",
+      "description": "This is a description of Project Four.",
+      "image": "https://via.placeholder.com/600x400",
+      "thumbnail": "https://via.placeholder.com/150x100",
+      "story": "This is the story of Project Four.",
+      "fechers": ["Feature 1"],
+      "skills": ["Python", "Django", "PostgreSQL"]
+    },
+    {
+      "id": 5,
+      "Title": "Project Five",
+      "description": "This is a description of Project Five.",
+      "image": "https://via.placeholder.com/600x400",
+      "thumbnail": "https://via.placeholder.com/150x100",
+      "story": "This is the story of Project Five.",
+      "fechers": ["Feature 1", "Feature 2", "Feature 3", "Feature 4", "Feature 5"],
+      "skills": ["Java", "Spring Boot", "MySQL"]
+    }
+  ]
+  
