@@ -8,6 +8,7 @@ function App() {
     <NavBar/>
    <LampDemo/>
     <Projects/>
+    {/* this is test */}
     </div>
   )
 }
