@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from '../../lib/utils';
 import Buttons from "../Buttons";
-import vishnu from '../../../public/Vishnu .pdf'
+import vishnu from '/Vishnu .pdf'
 import { HoverBorderGradient } from "./hover-border-gradient";
 export function LampDemo() {
   return (
