@@ -19,9 +19,11 @@ const Projects: React.FC = () => {
 
   return (
     <>
-      <div className="sticky -top-16 z-30 font-bold text-xl mt-8 w-full backdrop-filter backdrop-blur-lg bg-opacity-30 ">
-      <h2 className="text-3xl font-bold text-white ml-10 mb-4">Projects</h2>
-      <div className="flex overflow-x-scroll sm:scrollbar-hide">
+      <div className="relative w-full mt-8">
+        <h2 className="text-5xl font-bold text-white text-center mb-8">
+          Projects
+        </h2>
+        <div className="flex overflow-x-scroll sm:scrollbar-hide pb-5 space-x-5">
           {projects.map((project: Project, index) => (
             <div
               key={project.id}
@@ -41,7 +43,10 @@ const Projects: React.FC = () => {
         </div>
       </div>
 
-      <ProjectDetails project={projects[selectedProject]} />
+      {/* Project Details section with top padding to avoid overlap */}
+      <div className="pt-10">
+        <ProjectDetails project={projects[selectedProject]} />
+      </div>
     </>
   );
 };

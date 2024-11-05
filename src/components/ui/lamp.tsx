@@ -3,9 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from '../../lib/utils';
 import Buttons from "../Buttons";
+import vishnu from '../../../public/Vishnu .pdf'
+import { HoverBorderGradient } from "./hover-border-gradient";
 export function LampDemo() {
   return (
-    <LampContainer>
+    <LampContainer className="mt-0 sm:mt-20">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -14,14 +16,31 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-3xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-8 bg-gradient-to-br pt-48 from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-3xl font-medium tracking-tight text-transparent md:text-7xl "
       >
         Hi,
         <br />
         I'm <span className="text-cyan-400">Vishnu p,</span>
         <br />
         <span className="text-cyan-400">a passionate developer.</span>
+        <div className="flex justify-center mt-14">
+        <img src="../../public/logo.png" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
+      </div>
        <Buttons />
+       <div className="flex justify-center  mt-20">
+         <HoverBorderGradient className="inline-block px-6 tracking-wide  py-2  " downloadUrl={vishnu}>
+    Download My Resume
+  </HoverBorderGradient>
+  
+        {/* <a
+          href={vishnu} // Link to the PDF file
+          download // This attribute makes it download the file instead of opening it
+          className="inline-block px-4 py-2 mt-2 text-white bg-cyan-500 rounded hover:bg-cyan-600"
+        >
+          Download Resume
+        </a> */}
+      </div>
+
       </motion.h1>
     </LampContainer>
   );
@@ -37,7 +56,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full  z-0",
+        "relative flex min-h-screen flex-col items-center pt-48 justify-center overflow-hidden bg-slate-950 w-full  z-0",
         className
       )}
     >

@@ -1,53 +1,76 @@
 [
     {
       "id": 1,
-      "Title": "Project One",
-      "description": "This is a description of Project One.",
-      "image": "https://via.placeholder.com/600x400",
-      "thumbnail": "https://via.placeholder.com/150x100",
+      "Title": "Hope Spring",
+      "description": "User Frontly is a crowdfunding platform built with React and TypeScript on the frontend, and Node.js with TypeScript on the backend. It offers a seamless experience for fundraising, along with an admin panel for efficient user and campaign management.",
+      "image": "../public/projects/croudfund.png",
+      "thumbnail": "../public/projects/croudfund.png",
       "story": "This is the story of Project One.",
-      "fechers": ["Feature 1", "Feature 2", "Feature 3"],
-      "skills": ["React", "TypeScript", "CSS"]
+      "fechers": ["Google Authentication: Seamless sign-in with Google for user convenience.", 
+               "JWT Authentication: Secure token-based authentication for users and admins.",
+               "Stripe Payments: Secure and reliable payment processing using Stripe.",
+              "Real-time Chat: Instant messaging powered by Socket.io for real-time communication.",
+              "Email Notifications: Automated email sending using Nodemailer for updates and alerts.",
+              "Social media features posting and commenting",
+              "User Management: Comprehensive control over user accounts and roles.",
+              "Social Media Sharing: Easy sharing of content across social media platforms."
+              ],
+      "skills": ["React", "TypeScript", "Node.js" ,"Express js" ,"MongoDB","mogodb atles","Socket.io","Stripe payment", "Tailwind css","Cloudinary", "Google auth" ,"JWT token", "Social media sharing" ,"Shad cn, Next ui","Git"]
     },
     {
       "id": 2,
-      "Title": "Project Two",
-      "description": "This is a description of Project Two.",
-      "image": "https://via.placeholder.com/600x400",
-      "thumbnail": "https://via.placeholder.com/150x100",
+      "Title": "Blogging application",
+      "description": "This is a user-friendly blogging application built with React and TypeScript on the frontend, and Node.js with JavaScript on the backend. It provides a smooth blogging experience with an intuitive interface for creating and reading posts",
+      "image": "../public/projects/blog.png",
+      "thumbnail": "../public/projects/blog.png",
       "story": "This is the story of Project Two.",
-      "fechers": ["Feature 1", "Feature 2"],
-      "skills": ["JavaScript", "HTML", "CSS"]
+      "fechers": ["JWT Authentication: Secure token-based authentication for users and admins.",
+                "Post management",
+                "Firebase: fire base for file storing",
+                "Text editor using Jodit editor"
+              ],
+      "skills": ["JavaScript", "React", "TypeScript", "Node.js" ,"Express js" ,"MongoDB", "Tailwind css","Firebase","JWT token","Shad cn, Next ui","Git"]
     },
     {
       "id": 3,
-      "Title": "Project Three",
-      "description": "This is a description of Project Three.",
-      "image": "https://via.placeholder.com/600x400",
-      "thumbnail": "https://via.placeholder.com/150x100",
+      "Title": "e-commerce",
+      "description": "This is my first project, created to dive into Node.js and deepen my understanding of backend development. It uses Node.js and JavaScript for the backend, with HTML, CSS, and JavaScript for the UI. The project includes multiple features and secure payment functionality.",
+      "image": "../public/projects/ecommerce.png",
+      "thumbnail": "../public/projects/ecommerce.png",
       "story": "This is the story of Project Three.",
-      "fechers": ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
-      "skills": ["Node.js", "Express", "MongoDB"]
+      "fechers": ["Category and Product Management: Admin can add, edit, and manage categories and products.", 
+                "User Management: Admin can manage users and their accounts.",
+                "Order and Tracking: Admin can manage product orders and track their status.",
+                "Email Notifications: Sends emails to users using Nodemailer.",
+                "Secure Payments: Integrates secure payments with Razorpay.",
+                "Add to Cart: Users can add products to their cart for easy checkout.",
+                "Coupons and Order Cancellation: Manage discount coupons and allow order cancellations"],
+      "skills": ["Node.js", "Express", "MongoDB","mogodb atles", "html-5" ,"css","node-Mailer"]
     },
     {
       "id": 4,
-      "Title": "Project Four",
-      "description": "This is a description of Project Four.",
-      "image": "https://via.placeholder.com/600x400",
-      "thumbnail": "https://via.placeholder.com/150x100",
+      "Title": "Quiz app",
+      "description": "This quiz application was created as a learning project to explore React with TypeScript. It fetches quiz questions and answers from an API and displays them to users, providing an interactive experience for testing knowledge.",
+      "image": "../public/projects/quiz.png",
+      "thumbnail": "../public/projects/quiz.png",
       "story": "This is the story of Project Four.",
-      "fechers": ["Feature 1"],
-      "skills": ["Python", "Django", "PostgreSQL"]
+      "fechers": ["Dynamic Quiz Fetching: Retrieves quiz questions and answers from an external API, ensuring a varied experience.",
+              "Score Tracking: Displays the user’s score after completing the quiz, along with correct answers.",
+              "Multiple Choice Questions: Supports different types of questions, including multiple-choice and true/false."
+              ],
+      "skills": ["React", "TypeScript"]
     },
     {
       "id": 5,
-      "Title": "Project Five",
-      "description": "This is a description of Project Five.",
-      "image": "https://via.placeholder.com/600x400",
-      "thumbnail": "https://via.placeholder.com/150x100",
+      "Title": "Social Media",
+      "description": "This is an Instagram clone, a social media platform created using React and TypeScript for the frontend, and Node.js with TypeScript for the backend. The project is currently in progress, aiming to provide users with a seamless experience for sharing photos, connecting with friends.",
+      "image": "../public/projects/insta.png",
+      "thumbnail": "../public/projects/insta.png",
       "story": "This is the story of Project Five.",
-      "fechers": ["Feature 1", "Feature 2", "Feature 3", "Feature 4", "Feature 5"],
+      "fechers": ["JWT Authentication: Secure token-based authentication for users",
+                 "Cloudinary for storing files", 
+                 "user can upload multiple files",
+                  "work progress.."],
       "skills": ["Java", "Spring Boot", "MySQL"]
     }
   ]
-  
