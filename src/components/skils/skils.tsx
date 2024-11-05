@@ -1,63 +1,63 @@
 export const items = [
     {
       title: "JavaScript",
-      icon: "../../../public/icons/js (1).png",
+      icon: "/icons/js (1).png",
     },
     {
       title: "TypeScript",
-      icon: "../../../public/icons/typescript.png",
+      icon: "/icons/typescript.png",
     },
     {
         title: "ReactJS",
-        icon: "../../../public/icons/react.png",
+        icon: "/icons/react.png",
     },
     {
       title: "NodeJS",
-      icon: "../../../public/icons/node-js.png",
+      icon: "/icons/node-js.png",
     },
     {
         title: "ExpressJS",
-        icon: "../../../public/icons/test.png",
+        icon: "/icons/test.png",
     },
     {
         title: "MongoDB",
-        icon: "../../../public/icons/mongodb.png",
+        icon: "/icons/mongodb.png",
     },
     {
       title: "Bootstrap",
-      icon: "../../../public/icons/bootstrap.png",
+      icon: "/icons/bootstrap.png",
     },
     {
         title: "TailwindCSS",
-        icon: "../../../public/icons/tailwind.png",
+        icon: "/icons/tailwind.png",
     },
     {
         title: "CSS",
-        icon: "../../../public/icons/css.png",
+        icon: "/icons/css.png",
     },
     {
         title: "Git",
-        icon: "../../../public/icons/git.webp",
+        icon: "/icons/git.webp",
     },
     {
         title: "Github",
-        icon: "../../../public/icons/github.webp",
+        icon: "/icons/github.webp",
     },
     {
         title: "Postman",
-        icon: "../../../public/icons/postman.jpeg",
+        icon: "/icons/postman.jpeg",
     },
     {
         title: "Figma",
-        icon: "../../../public/icons/figma.png",
+        icon: "/icons/figma.png",
     },
     {
         title: "AWS",
-        icon: "../../../public/icons/aws.png"
+        icon: "/icons/aws.png"
     },
     {
         title: "PostgreSQL",
-        icon: "../../../public/icons/postgresql.png",
+        icon: "/icons/postgresql.png",
     },
   ];
 
