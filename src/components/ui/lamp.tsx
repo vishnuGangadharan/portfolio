@@ -24,22 +24,21 @@ export function LampDemo() {
         <br />
         <span className="text-cyan-400">a passionate developer.</span>
         <div className="flex justify-center mt-14">
-        <img src="../../public/logo.png" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
-      </div>
-       <Buttons />
-       <div className="flex justify-center  mt-20">
-         <HoverBorderGradient className="inline-block px-6 tracking-wide  py-2  " downloadUrl={vishnu}>
-    Download My Resume
-  </HoverBorderGradient>
-  
-        {/* <a
-          href={vishnu} // Link to the PDF file
-          download // This attribute makes it download the file instead of opening it
-          className="inline-block px-4 py-2 mt-2 text-white bg-cyan-500 rounded hover:bg-cyan-600"
-        >
-          Download Resume
-        </a> */}
-      </div>
+          <img src="../../public/logo.png" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
+        </div>
+        <Buttons />
+
+        <div className="flex flex-col items-center mt-10">
+          <HoverBorderGradient className="inline-block px-6 tracking-wide py-2 hover:px-1" downloadUrl={vishnu}>
+            Download My Resume
+          </HoverBorderGradient>
+
+          <div className="mt-10 text-center text-2xl text-white">
+            <p className="text-xl mb-5">Connect with me</p>
+            <p className="">pvishnu997@gmail.com</p>
+          </div>
+        </div>
+
 
       </motion.h1>
     </LampContainer>
