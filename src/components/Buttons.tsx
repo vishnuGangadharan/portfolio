@@ -1,4 +1,3 @@
-import React from 'react'
 import {Button} from "@nextui-org/react";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";

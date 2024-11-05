@@ -1,4 +1,3 @@
-import React from 'react'
 import { LampDemo } from './components/ui/lamp'
 import NavBar from './components/NavBar'
 import Projects from './Projects/Project'
