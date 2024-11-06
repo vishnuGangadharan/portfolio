@@ -43,7 +43,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
                     alt={project.Title}
                     className="w-full h-auto  mt-4 rounded-md"
                 />
-                 <p className="mt-4">
+                 <p className="mt-4 font-inters">
         {isExpanded ? project.description : getTruncatedDescription(project.description)}
       </p>
       {project.description.split(" ").length > 20 && (
@@ -114,7 +114,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
             </div>
 
             <div className="w-full lg:w-1/2 mt-12 lg:mt-0">
-                <h3 className="text-2xl font-bold mb-4">Features</h3>
+                <h3 className="text-2xl font-bold mb-4 font-inters">Features</h3>
                 <div className="grid gap-2 w-full">
                     {project.fechers.map((feature, index) => (
                         <div

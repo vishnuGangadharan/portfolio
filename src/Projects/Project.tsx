@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
   return (
     <>
       <div className="relative w-full mt-8">
-        <h2 className="text-5xl font-bold text-white text-center mb-8">
+        <h2 className="text-5xl font-bold text-white text-center mb-8 font-inters">
           Projects
         </h2>
         <div className="flex overflow-x-scroll sm:scrollbar-hide pb-5 space-x-5">

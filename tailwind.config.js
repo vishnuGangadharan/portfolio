@@ -11,7 +11,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        email: ["Lato", "sans-serif"]
+        email: ["Lato", "sans-serif"],
+        inters : ["Inter", "sans-serif"]
       }
     },
   },
