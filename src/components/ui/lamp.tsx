@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from '../../lib/utils';
 import Buttons from "../Buttons";
-import vishnu from '/Vishnu .pdf'
+import vishnu from '../../../public/Vishnu.pdf'
 import { HoverBorderGradient } from "./hover-border-gradient";
 export function LampDemo() {
   return (
@@ -26,7 +26,6 @@ export function LampDemo() {
         <div className="flex justify-center mt-14">
           <img src="../../public/logo.png" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
         </div>
-        <Buttons />
 
         <div className="flex flex-col items-center mt-10">
           <HoverBorderGradient className="inline-block px-6 tracking-wide py-2 hover:px-1" downloadUrl={vishnu}>
@@ -34,8 +33,9 @@ export function LampDemo() {
           </HoverBorderGradient>
 
           <div className="mt-10 text-center text-2xl text-white">
-            <p className="text-xl mb-5">Connect with me</p>
-            <p className="">pvishnu997@gmail.com</p>
+            <p className="text-xl mb-2 tracking-normal">Connect with me</p>
+            <p className="font-email tracking-normal mb-10">pvishnu997@gmail.com</p>
+        <Buttons />
           </div>
         </div>
 

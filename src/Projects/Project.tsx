@@ -12,6 +12,9 @@ interface Project {
   story: string;
   fechers: string[];
   skills: string[];
+  gitFrontend:string;
+  gitBackend: string;
+  liveLink:string;
 }
 
 const Projects: React.FC = () => {

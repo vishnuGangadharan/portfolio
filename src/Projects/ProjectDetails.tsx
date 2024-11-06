@@ -1,5 +1,10 @@
 
 import React from "react";
+import { Button } from "@nextui-org/react";
+import { FaGithub } from "react-icons/fa";
+import { CiGlobe } from "react-icons/ci";
+import { useState } from "react";
+
 
 interface ProjectDetailsProps {
     project: {
@@ -10,10 +15,25 @@ interface ProjectDetailsProps {
         story: string;
         fechers: string[];
         skills: string[];
+        gitFrontend:string;
+        gitBackend: string;
+        liveLink:string;
     };
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
+
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleDescription = () => {
+        setIsExpanded(!isExpanded);
+      };
+    
+      const getTruncatedDescription = (text: string) => {
+        const words = text.split(" ");
+        return words.slice(0, 20).join(" ") + (words.length > 20 ? "..." : "");
+      };
+
     return (
         <div className="flex flex-col lg:flex-row justify-center pt-20 p-5 text-white">
             <div className="m-3 lg:m-20 max-w-[420px]">
@@ -23,7 +43,74 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
                     alt={project.Title}
                     className="w-full h-auto  mt-4 rounded-md"
                 />
-                <p>{project.description}</p>
+                 <p className="mt-4">
+        {isExpanded ? project.description : getTruncatedDescription(project.description)}
+      </p>
+      {project.description.split(" ").length > 20 && (
+        <button
+          onClick={toggleDescription}
+          className="text-blue-500 hover:underline mt-2"
+        >
+          {isExpanded ? "Read Less" : "Read More"}
+        </button>
+      )}
+                <div className="mt-5 space-x-4">
+                    {project.liveLink &&
+                     <a 
+                     href={project.liveLink}
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     className="ml-4 inline-flex items-center"
+                   >
+                    
+                    <Button
+                        radius="full"
+                        variant="ghost"
+                        className="px-2 py-2 text-white border border-gray-300 hover:bg-gray-100"
+                        >
+                        <CiGlobe size={20} color="white" />
+                        <span className="text-white text-md font-semibold tracking-wide">Live Link</span>
+                    </Button>
+                </a>
+                }
+               {project.gitFrontend && 
+                <a 
+                href={project.gitFrontend}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="ml-4 inline-flex items-center"
+              >
+               
+                    <Button
+                        radius="full"
+                        variant="ghost"
+                        className="px-2 py-2 text-white border border-gray-300 hover:bg-gray-100"
+                        >
+                        <FaGithub size={20} color="white" />
+                        <span className="text-white text-md  font-semibold tracking-wide">Frontend</span>
+                    </Button> 
+                        </a>
+                        }
+
+                    {project.gitBackend &&
+                     <a 
+                     href={project.gitBackend}
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     className="ml-4 inline-flex items-center"
+                   >
+                    
+                    <Button
+                        radius="full"
+                        variant="ghost"
+                        className="px-2 py-2 text-white border border-gray-300 hover:bg-gray-100"
+                        >
+                        <FaGithub size={20} color="white" />
+                        <span className="text-white text-md  font-semibold tracking-wide">Backend</span>
+                    </Button>
+                        </a>
+                    }
+                </div>
             </div>
 
             <div className="w-full lg:w-1/2 mt-12 lg:mt-0">
@@ -41,7 +128,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
                         </div>
                     ))}
                     <h3 className="mt-6 font-semibold">Skills Used:</h3>
-               
+
 
                     <div className="flex flex-wrap gap-2">
                         {project.skills.map((skill, indx) => (

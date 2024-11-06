@@ -9,7 +9,11 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        email: ["Lato", "sans-serif"]
+      }
+    },
   },
   darkMode: "class",
   plugins: [nextui()]

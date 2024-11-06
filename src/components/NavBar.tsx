@@ -28,7 +28,7 @@ const NavBar = () => {
         
         {/* Dark mode toggle/link: visible on medium (md) screens and up */}
         <NavbarItem className="hidden md:flex">
-          <Link href="#" className="text-white">dark</Link>
+          {/* <Link href="#" className="text-white">dark</Link> */}
         </NavbarItem>
       </NavbarContent>
     </Navbar>
