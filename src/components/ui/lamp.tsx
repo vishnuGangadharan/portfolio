@@ -24,7 +24,7 @@ export function LampDemo() {
         <br />
         <span className="text-cyan-400">a passionate developer.</span>
         <div className="flex justify-center mt-14">
-          <img src="../../public/logo.png" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
+          <img src="/profile.jpg" alt="Logo" className="rounded-full w-36 h-36 object-cover" />
         </div>
 
         <div className="flex flex-col items-center mt-10">
