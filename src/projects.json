@@ -58,6 +58,23 @@
     },
     {
       "id": 4,
+      "Title": "Food app",
+      "description": "This is a food-viewing application where users can explore a variety of food items. The application includes authentication features using JWT tokens, and users can also add reviews for the food items.",
+      "image": "/projects/foodApp.png",
+      "thumbnail": "/projects/foodApp.png",
+      "gitFrontend": "https://github.com/vishnuGangadharan/food_app_frontend",
+      "gitBackend": "https://github.com/vishnuGangadharan/food_App_backend",
+      "liveLink": "https://food-app--beta.vercel.app/",
+      "story": "This is the story of Project Four.",
+      "fechers": ["Framer Motion for animations.",
+              "User Authentication using JWT tokens",
+              "User Login and Signup functionality",
+              "API Fetching implemented with Axios"
+              ],
+      "skills": ["React", "JavaScript","Node.js","framer motion"]
+    },
+    {
+      "id": 5,
       "Title": "Quiz app",
       "description": "This quiz application was created as a learning project to explore React with TypeScript. It fetches quiz questions and answers from an API and displays them to users, providing an interactive experience for testing knowledge.",
       "image": "/projects/quiz.png",
@@ -73,7 +90,7 @@
       "skills": ["React", "TypeScript"]
     },
     {
-      "id": 5,
+      "id": 6,
       "Title": "Social Media",
       "description": "This is an Instagram clone, a social media platform created using React and TypeScript for the frontend, and Node.js with TypeScript for the backend. The project is currently in progress, aiming to provide users with a seamless experience for sharing photos, connecting with friends.",
       "image": "/projects/insta.png",
