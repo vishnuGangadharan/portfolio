@@ -7,7 +7,7 @@
       "thumbnail": "/projects/croudfund.png",
       "gitFrontend": "https://github.com/vishnuGangadharan/crowd-funding-frontend",
       "gitBackend": "https://github.com/vishnuGangadharan/crowd_funding_backend",
-      "liveLink": "",
+      "liveLink": "https://crowd-funding-hope-springs.vercel.app/",
       "story": "This is the story of Project One.",
       "fechers": ["Google Authentication: Seamless sign-in with Google for user convenience.", 
                "JWT Authentication: Secure token-based authentication for users and admins.",
